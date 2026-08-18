@@ -1,0 +1,28 @@
+#header {
+    height: 150px;
+    background-color: #d1d14d;
+}
+
+#container {
+    display: flex;
+}
+
+#sidebar {
+    width: 300px;
+    height: 750px;
+    background-color: #39bd56;
+}
+
+#main{
+    width: calc(100% - 300px);
+}
+
+#content {
+    height: 600px;
+    background-color: #df971b;
+}
+
+#footer {
+    height: 150px;
+    background-color: #549eed;
+}
